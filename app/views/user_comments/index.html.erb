@@ -1,0 +1,43 @@
+<h1>Listing user_comments</h1>
+<%= button_to 'Delete All', delete_all_user_comments_path, method: 'get'%>
+<%= button_to 'Get Some Comments', fetch_comments_user_comments_path, disable_with: 'Loading', method: "get"%>
+
+<h2>
+<% if flash[:notice] %>
+  <%= flash[:notice] %>
+<% end %>
+</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Handle</th>
+      <th>User id</th>
+      <th>Creation time</th>
+      <th>Score</th>
+      <th>Message</th>
+      <th>Follower</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user_comments.each do |user_comment| %>
+      <tr>
+        <td><%= user_comment.handle %></td>
+        <td><%= user_comment.user_id %></td>
+        <td><%= user_comment.creation_time %></td>
+        <td><%= user_comment.score %></td>
+        <td><%= user_comment.message %></td>
+        <td><%= user_comment.follower %></td>
+        <td><%= link_to 'Show', user_comment %></td>
+        <td><%= link_to 'Edit', edit_user_comment_path(user_comment) %></td>
+        <td><%= link_to 'Destroy', user_comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<br>
+

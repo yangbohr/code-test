@@ -1,4 +1,11 @@
 IQMITest::Application.routes.draw do
+  resources :user_comments do
+    collection do
+      get  'fetch_comments'
+      get  'delete_all'
+    end
+  end
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

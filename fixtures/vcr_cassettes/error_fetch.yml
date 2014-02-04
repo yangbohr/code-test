@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://iqmi-dev-test-api.herokuapp.com/tweets.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Tue, 04 Feb 2014 22:26:53 GMT
+      Etag:
+      - '"5f53b0b780d01b42159784ce1405f77b"'
+      Status:
+      - 200 OK
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 2e1fa40c-5ec2-45ad-a815-a0cffe3da9fb
+      X-Runtime:
+      - '0.001779'
+      X-Xss-Protection:
+      - 1; mode=block
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: |2
+                [{"created_at":"2012-09-27T16:16:46Z","followers":23,"id":11,"message":"Urgh - coke!","sentiment":-0.7,"updated_at":"2012-09-27T16:16:46Z","user_handle":"@coke_h8r"},
+                 {"created_at":"2012-09-27T16:18:09Z","followers":3,"id":13,"message":"I've got to say - Pepsi max is great!","sentiment":0.9,"updated_at":"2012-09-27T16:18:09Z","user_handle":"@tasteless"},
+                 {"created_at":"2012-09-27T16:18:50Z","followers":245,"id":14,"message":"Coke coke coke coke coke!!!!","sentiment":0.4,"updated_at":"2012-09-27T16:18:50Z","user_handle":"@coke_snortr"},
+                 {"created_at":"2012-12-07T16:55:45Z","followers":3,"id":16,"message":"Hi there","sentiment":0.0,"updated_at":"2012-12-07T16:55:45Z","user_handle":"@idiot"},
+                 {"created_at":"2012-09-27T16:17:21Z","followers":19,"id":12,"message":"Pepsi is the new coke","sentiment":0.0,"updated_at":"2012-09-27T16:17:21Z","user_handle":"@pepsi"},
+                 {"created_at":"2012-09-27T16:15:06Z","followers":5,"id":8,"message":"Tweet me your fav drinks #drinks","sentiment":0.0,"updated_at":"2012-09-27T16:15:06Z","user_handle":"@drinkies"},
+                 {"created_at":"2012-09-27T16:12:31Z","followers":12,"id":5,"message":"I don't like pepsi.  I prefer #coke","sentiment":-0.1,"updated_at":"2012-09-27T16:12:31Z","user_handle":"@kevin"},
+                 {"created_at":"2012-09-27T16:11:44Z","followers":345,"id":4,"message":"Who likes coca-cola?","sentiment":0.0,"updated_at":"2012-09-27T16:11:44Z","user_handle":"@questionnr"}]
+    http_version: 
+  recorded_at: Tue, 04 Feb 2014 22:26:53 GMT
+recorded_with: VCR 2.8.0
