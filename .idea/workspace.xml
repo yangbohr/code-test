@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_comments/index.html.erb" afterPath="$PROJECT_DIR$/app/views/user_comments/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" name="Default" comment="" />
     <ignored path="IQMI_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391547464456" ignored="false" />
