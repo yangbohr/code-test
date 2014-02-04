@@ -4,7 +4,8 @@ class UserCommentsController < ApplicationController
   # GET /user_comments
   # GET /user_comments.json
   def index
-    @user_comments = UserComment.all
+    @user_comments = UserComment.where(include_keyword: true).order("score DESC")
+    @percent = UserComment.where(include_keyword: true).count.to_f/UserComment.all.count.to_f
   end
 
   # GET /user_comments/1

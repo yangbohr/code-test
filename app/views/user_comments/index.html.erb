@@ -1,7 +1,7 @@
 <h1>Listing user_comments</h1>
 <%= button_to 'Delete All', delete_all_user_comments_path, method: 'get'%>
 <%= button_to 'Get Some Comments', fetch_comments_user_comments_path, disable_with: 'Loading', method: "get"%>
-
+<%= "Cokecentage is now at #{@percent*100}%" %>
 <h2>
 <% if flash[:notice] %>
   <%= flash[:notice] %>

@@ -2,19 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/user_comment_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_comments/index.html.erb" afterPath="$PROJECT_DIR$/app/views/user_comments/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/user_comments_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/user_comments_controller.rb" />
     </list>
     <ignored path="IQMI_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391547464456" ignored="false" />
-    <file path="/user_comments_controller.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391549110137" ignored="false" />
+    <file path="/user_comments_controller.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391553716448" ignored="false" />
     <file path="/user_comment.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391552757893" ignored="false" />
     <file path="/routes.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391548471378" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391548076725" ignored="false" />
-    <file path="/index.html.erb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391549217721" ignored="false" />
+    <file path="/index.html.erb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391553676310" ignored="false" />
     <file path="/user_comment_spec.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391552421908" ignored="false" />
     <file path="/spec_helper.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391551821149" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,7 +37,7 @@
       <file leaf-file-name="user_comments_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/user_comments_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="14" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+            <state line="7" column="93" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
@@ -72,10 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/user_comments/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="-5.0">
+            <state line="3" column="42" selection-start="259" selection-end="259" vertical-scroll-proportion="0.13119534">
               <folding />
             </state>
           </provider>
@@ -145,11 +143,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/user_comments_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/user_comments/index.html.erb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/app/models/user_comment.rb" />
         <option value="$PROJECT_DIR$/spec/models/user_comment_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/user_comments_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/user_comments/index.html.erb" />
       </list>
     </option>
   </component>
@@ -664,20 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/user_comments/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="-5.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user_comments_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixtures/vcr_cassettes/successfully_fetch.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -723,6 +707,20 @@
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="36" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user_comments_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="93" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/user_comments/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="42" selection-start="259" selection-end="259" vertical-scroll-proportion="0.13119534">
           <folding />
         </state>
       </provider>
