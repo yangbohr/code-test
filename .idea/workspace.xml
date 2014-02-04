@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/user_comments/index.html.erb" afterPath="$PROJECT_DIR$/app/views/user_comments/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/user_comments_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/user_comments_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IQMI_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,7 +12,7 @@
     <file path="/user_comment.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391552757893" ignored="false" />
     <file path="/routes.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391548471378" ignored="false" />
     <file path="$PROJECT_DIR$/db/schema.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391548076725" ignored="false" />
-    <file path="/index.html.erb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391553676310" ignored="false" />
+    <file path="/index.html.erb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391556960721" ignored="false" />
     <file path="/user_comment_spec.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391552421908" ignored="false" />
     <file path="/spec_helper.rb" changelist="1f9e0a10-5b0b-452c-a670-b9fe754e8d20" time="1391551821149" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,15 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="successfully_fetch.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fixtures/vcr_cassettes/successfully_fetch.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spec_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,8 +64,28 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/user_comments/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="42" selection-start="259" selection-end="259" vertical-scroll-proportion="0.13119534">
+            <state line="57" column="32" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.9145299">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_comments.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/user_comments.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,15 +94,6 @@
         <entry file="file://$PROJECT_DIR$/test/models/user_comment_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="6" column="0" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/user_comments/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -306,6 +308,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQMI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQMI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQMI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IQMI_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -718,9 +760,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/user_comments.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/user_comments/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="42" selection-start="259" selection-end="259" vertical-scroll-proportion="0.13119534">
+        <state line="57" column="32" selection-start="1749" selection-end="1749" vertical-scroll-proportion="0.9145299">
           <folding />
         </state>
       </provider>

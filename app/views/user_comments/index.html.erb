@@ -1,7 +1,7 @@
 <h1>Listing user_comments</h1>
 <%= button_to 'Delete All', delete_all_user_comments_path, method: 'get'%>
 <%= button_to 'Get Some Comments', fetch_comments_user_comments_path, disable_with: 'Loading', method: "get"%>
-<%= "Cokecentage is now at #{@percent*100}%" %>
+<%= "Cokecentage is now at #{@percent*100}%" unless @percent.to_s == 'NaN'%>
 <h2>
 <% if flash[:notice] %>
   <%= flash[:notice] %>
@@ -26,12 +26,12 @@
   <tbody>
     <% @user_comments.each do |user_comment| %>
       <tr>
-        <td><%= user_comment.handle %></td>
+        <td><%= user_comment.handle[1..(user_comment.handle.length + 1)] %></td>
         <td><%= user_comment.user_id %></td>
         <td><%= user_comment.creation_time %></td>
-        <td><%= user_comment.score %></td>
-        <td><%= user_comment.message %></td>
-        <td><%= user_comment.follower %></td>
+        <td class='score'><%= user_comment.score %></td>
+        <td class='message'><%= user_comment.message %></td>
+        <td class='followers'><%= user_comment.follower %></td>
         <td><%= link_to 'Show', user_comment %></td>
         <td><%= link_to 'Edit', edit_user_comment_path(user_comment) %></td>
         <td><%= link_to 'Destroy', user_comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -41,3 +41,21 @@
 </table>
 <br>
 
+
+<script>
+    $('.message').click(function(){
+        var score = $(this).siblings('.score').text();
+        var followers = $(this).siblings('.followers').text();
+        $.colorbox({html: "<div class='popup'>the score is " + score + " and there are " + followers + " followers</div>"});
+    })
+</script>
+
+<style>
+  .popup {
+     background-color: white;
+     height: 100px;
+     width: 200px;
+     margin: 10px 10px 10px 10px;
+  }
+
+</style>
