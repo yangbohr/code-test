@@ -1,4 +1,6 @@
 IQMITest::Application.routes.draw do
+
+  root 'user_comments#index'
   resources :user_comments do
     collection do
       get  'fetch_comments'
